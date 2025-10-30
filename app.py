@@ -87,7 +87,7 @@ def fetch_fund_data_endpoint():
 
 #approute to run sql query
 
-@app.test_conn('/test', methods=['GET'])
+@app.route('/test', methods=['GET'])
 def test_conn():
     return "sucessfully connected with the flask container"
 
