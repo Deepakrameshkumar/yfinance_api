@@ -85,5 +85,13 @@ def fetch_fund_data_endpoint():
     fetch_all_and_save()
     return "Fund data fetched and saved."
 
+#approute to run sql query
+
+@app.test_conn('/test', methods=['GET'])
+def test_conn():
+    return "sucessfully connected with the flask container"
+
+
+
 if __name__ == "__main__":
     app.run(host='0.0.0.0', port=5000)

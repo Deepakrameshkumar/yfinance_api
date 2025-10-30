@@ -16,6 +16,9 @@ COPY . .
 # Create data directory if it doesn't exist
 RUN mkdir -p data
 
+# Add a volume to be mounted at /data
+VOLUME ["/data"]
+
 # Expose port 5000
 EXPOSE 5000
 
