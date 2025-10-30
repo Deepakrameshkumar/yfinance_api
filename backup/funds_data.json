@@ -1,0 +1,101 @@
+{
+    "quote_type": "ETF",
+    "description": "To maintain the correspondence between the composition and weights of the securities in the trust (the \"securities\") and the stocks in the NASDAQ-100 Index\u00ae, the adviser adjusts the securities from time to time to conform to periodic changes in the identity and/or relative weights of index securities. The composition and weighting of the securities portion of a portfolio deposit are also adjusted to conform to changes in the index.",
+    "fund_overview": {
+        "categoryName": "Large Growth",
+        "family": "Invesco",
+        "legalType": "Exchange Traded Fund"
+    },
+    "fund_operations": {
+        "QQQ": {
+            "Annual Report Expense Ratio": 0.002,
+            "Annual Holdings Turnover": 0.080699995,
+            "Total Net Assets": 653084.1
+        },
+        "Category Average": {
+            "Annual Report Expense Ratio": 0.0092221,
+            "Annual Holdings Turnover": 0.5102,
+            "Total Net Assets": 653084.1
+        }
+    },
+    "asset_classes": {
+        "cashPosition": 0.0,
+        "stockPosition": 1.0,
+        "bondPosition": 0.0,
+        "preferredPosition": 0.0,
+        "convertiblePosition": 0.0,
+        "otherPosition": 0.0
+    },
+    "top_holdings": {
+        "Name": {
+            "NVDA": "NVIDIA Corp",
+            "MSFT": "Microsoft Corp",
+            "AAPL": "Apple Inc",
+            "AVGO": "Broadcom Inc",
+            "AMZN": "Amazon.com Inc",
+            "TSLA": "Tesla Inc",
+            "META": "Meta Platforms Inc Class A",
+            "GOOGL": "Alphabet Inc Class A",
+            "GOOG": "Alphabet Inc Class C",
+            "NFLX": "Netflix Inc"
+        },
+        "Holding Percent": {
+            "NVDA": 0.098836094,
+            "MSFT": 0.0839278,
+            "AAPL": 0.0823757,
+            "AVGO": 0.055946004,
+            "AMZN": 0.0510475,
+            "TSLA": 0.0353344,
+            "META": 0.034723,
+            "GOOGL": 0.0308268,
+            "GOOG": 0.0288292,
+            "NFLX": 0.027323
+        }
+    },
+    "equity_holdings": {
+        "QQQ": {
+            "Price/Earnings": 0.02954,
+            "Price/Book": 0.12096,
+            "Price/Sales": 0.15723,
+            "Price/Cashflow": 0.04211,
+            "Median Market Cap": null,
+            "3 Year Earnings Growth": null
+        },
+        "Category Average": {
+            "Price/Earnings": null,
+            "Price/Book": null,
+            "Price/Sales": null,
+            "Price/Cashflow": null,
+            "Median Market Cap": null,
+            "3 Year Earnings Growth": null
+        }
+    },
+    "bond_holdings": {
+        "QQQ": {
+            "Duration": null,
+            "Maturity": null,
+            "Credit Quality": null
+        },
+        "Category Average": {
+            "Duration": null,
+            "Maturity": null,
+            "Credit Quality": null
+        }
+    },
+    "bond_ratings": {
+        "us_government": 0.0
+    },
+    "sector_weightings": {
+        "realestate": 0.0019,
+        "consumer_cyclical": 0.1331,
+        "basic_materials": 0.0119,
+        "consumer_defensive": 0.045900002,
+        "technology": 0.5442,
+        "communication_services": 0.16530001,
+        "financial_services": 0.0034,
+        "utilities": 0.0137,
+        "industrials": 0.0335,
+        "energy": 0.0047999998,
+        "healthcare": 0.0422
+    }
+}

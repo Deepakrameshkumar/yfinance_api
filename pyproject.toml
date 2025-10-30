@@ -1,0 +1,10 @@
+[project]
+name = "yfinance-api"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "flask>=3.1.2",
+    "yfinance>=0.2.66",
+]
