@@ -1,19 +1,23 @@
-FROM python:3.10-slim
+# Use Python 3.11 as the base image
+FROM python:3.11-slim
 
 # Set working directory
 WORKDIR /app
 
-# Install pip and build tools
-RUN pip install --upgrade pip setuptools wheel
+# Copy requirements first to leverage Docker cache
+COPY requirements.txt .
 
-# Copy project files
+# Install dependencies
+RUN pip install --no-cache-dir -r requirements.txt
+
+# Copy the rest of the application
 COPY . .
 
-# Install dependencies from pyproject.toml
-RUN pip install .
+# Create data directory if it doesn't exist
+RUN mkdir -p data
 
-# Expose port
+# Expose port 5000
 EXPOSE 5000
 
-# Run the app
+# Command to run the application
 CMD ["python", "app.py"]
