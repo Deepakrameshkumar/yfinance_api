@@ -17,7 +17,7 @@ COPY . .
 RUN mkdir -p data
 
 # Add a volume to be mounted at /data
-VOLUME ["/data"]
+VOLUME ["/app/data"]
 
 # Expose port 5000
 EXPOSE 5000
